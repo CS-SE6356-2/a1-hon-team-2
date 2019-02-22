@@ -9,10 +9,10 @@ public class Main {
 
 class NamePrinter {
     /**
-     * Prints the names of the group members separated by the '-' symbol.
+     * Prints the names of the group members separated by the ',' symbol.
      */
     public void printNames() {
-        String separator = "-";
+        String separator = ",";
 
         String[] names = {
                 "Matthew Paul",
