@@ -4,6 +4,8 @@ import org.junit.runner.notification.Failure;
 
 public class TestRunner {
 	public static void main(String[] args) {
+		
+		// Test for Card class
 		Result result = JUnitCore.runClasses(TestCard.class);
 		
 		for(Failure failure : result.getFailures()) {
@@ -11,6 +13,12 @@ public class TestRunner {
 		}
 		
 		System.out.println("Successful Test for <Card>: " + result.wasSuccessful());
+		
+		
+		// Test for Hand class
+		
+		
+		// Test for Deck class
 
 	}
 }
