@@ -3,6 +3,7 @@ Instructions to compile and run tests on command line:
 
   1. Download and install JDK from https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
   2. Open command line and type "set path=%PATH%;"C:\Program Files\Java\jdk1.8.x_xxx\bin" <- this may be different depending on where you choose to install the JDK
+  <a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">Test Link</a>
   3. Go to https://github.com/junit-team/junit4/wiki/Download-and-Install and download junit.jar and hamcrest-core.jar and move to a folder
   4. Type "set classpath=%CLASSPATH%;\<Path to junit.jar>\junit.jar;\<Path to hamcrest-core.jar>\hamcrest-core.jar" <- the jar names may be different depending on the version downloaded
   4. Change directory to location of TestRunner.java
