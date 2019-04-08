@@ -20,6 +20,7 @@ Instructions to compile and run in eclipse:
     - If JUnit is not already included
        - Click Add External JARs
        - Select junit.jar and hamcrest-core.jar <- may be different depending on version downloaded
+
 Instructions to compile and run tests on command line:
 
 1. Make sure JDK is installed
