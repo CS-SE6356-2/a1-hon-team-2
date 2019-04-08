@@ -12,7 +12,7 @@ public class TestRunner {
 			System.out.println(failure.toString());
 		}
 		
-		System.out.println("Successful Test for <Card>: " + result.wasSuccessful());
+		System.out.println("Successful Test for class <Card>: " + result.wasSuccessful());
 		
 		
 		// Test for Hand class
