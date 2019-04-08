@@ -14,3 +14,6 @@ Instructions to compile and run tests on command line:
 8. To view environment variables type "echo %\<variable name>%" in the command line
 9. To clear environment variables type "set \<variable name>=" in the command line
 10. The environment variables set and deleted in the command line will be reset after exiting the command line. To set or delete them permanently, edit the system environment variables through Windows Control Panel.
+
+
+Instructions to compile and run in eclipse:
