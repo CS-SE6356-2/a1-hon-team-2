@@ -1,13 +1,13 @@
-To install JDK:
+**To install JDK:**
 1. Check to see if java is installed by opening command line and typing "java -version"
 2. If not, download and install JDK from https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
     - Following [these instructions](https://www.java.com/en/download/help/path.xml), change 'Path' environment variable to include "C:\Program Files\Java\jdk1.8.x_xxx\bin" <- path may be different depending on where Java was installed
 
-To download JUnit:
+**To download JUnit:**
 1. Go to https://github.com/junit-team/junit4/wiki/Download-and-Install and download junit.jar and hamcrest-core.jar and move to a folder
     - Jar file names may be different depending on version downloaded
 
-Instructions to compile and run in eclipse:
+**Instructions to compile and run in eclipse:**
 
 1. Download zip file and unzip in workspace
 2. Open eclipse and select File -> Import
@@ -21,7 +21,7 @@ Instructions to compile and run in eclipse:
        - Click Add External JARs
        - Select junit.jar and hamcrest-core.jar <- may be different depending on version downloaded
 
-Instructions to compile and run tests on command line:
+**Instructions to compile and run tests on command line:**
 
 1. Make sure JDK is installed
 2. If not already set, open command line and type "set path=%PATH%;"C:\Program Files\Java\jdk1.8.x_xxx\bin" <- this may be different depending on where you choose to install the JDK
