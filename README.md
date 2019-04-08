@@ -1,7 +1,7 @@
 To install JDK:
 1. Check to see if java is installed by opening command line and typing "java -version"
 2. If not, download and install JDK from https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-    - Change 'Path' environment variable to include "C:\Program Files\Java\jdk1.8.x_xxx\bin" <- path may be different depending on where Java was installed
+    - Following [these instructions](https://www.java.com/en/download/help/path.xml), change 'Path' environment variable to include "C:\Program Files\Java\jdk1.8.x_xxx\bin" <- path may be different depending on where Java was installed
 
 To download JUnit:
 1. Go to https://github.com/junit-team/junit4/wiki/Download-and-Install and download junit.jar and hamcrest-core.jar and move to a folder
