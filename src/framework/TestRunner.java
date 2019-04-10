@@ -6,16 +6,23 @@ public class TestRunner {
 	public static void main(String[] args) {
 		
 		// Test for Card class
-		Result result = JUnitCore.runClasses(TestCard.class);
+		Result resultCard = JUnitCore.runClasses(TestCard.class);
 		
-		for(Failure failure : result.getFailures()) {
+		for(Failure failure : resultCard.getFailures()) {
 			System.out.println(failure.toString());
 		}
 		
-		System.out.println("Successful Test for class <Card>: " + result.wasSuccessful());
+		System.out.println("Successful Test for class <Card>: " + resultCard.wasSuccessful());
 		
 		
 		// Test for Hand class
+		Result resultHand = JUnitCore.runClasses(TestHand.class);
+		
+		for(Failure failure : resultHand.getFailures()) {
+			System.out.println(failure.toString());
+		}
+		
+		System.out.println("Successful Test for class <Hand>: " + resultHand.wasSuccessful());
 		
 		
 		// Test for Deck class
