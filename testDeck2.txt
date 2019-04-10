@@ -1,0 +1,13 @@
+1 Diamonds
+2 Clubs
+3 Hearts
+4 Spades
+5 Diamonds
+6 Clubs
+7 Hearts
+8 Spades
+9 Diamonds
+10 Clubs
+11 Hearts
+12 Spades
+13 Diamonds

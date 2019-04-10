@@ -26,6 +26,13 @@ public class TestRunner {
 		
 		
 		// Test for Deck class
+		Result resultDeck = JUnitCore.runClasses(TestDeck.class);
+		
+		for(Failure failure : resultDeck.getFailures()) {
+			System.out.println(failure.toString());
+		}
+		
+		System.out.println("Successful Test for class <Deck>: " + resultHand.wasSuccessful());
 
 	}
 }
