@@ -7,7 +7,6 @@ public class TestDeck {
 	public void testAdd() {
     
     Deck d= new Deck();
-    Card t = new Card(11, "Diamonds");
 		
 		int numCards = h.getNumCards();
 		
