@@ -6,9 +6,19 @@ public class Deck {
   Hand() {
 		cards = new ArrayList<>();
 	}
-  
-  
-  
-  
+	
+  Hand(File gameFile){
   
   }
+	
+	/* Getter Methods */
+	public Card getCard(int numCard) {
+		if(numCard < numCards)
+			return cards.get(numCard);
+		
+		return null;
+	}
+  
+  
+  
+}
