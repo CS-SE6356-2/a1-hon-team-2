@@ -2,13 +2,15 @@ import java.util.ArrayList;
 
 public class Deck {
 	private ArrayList<Card> cards;
+	private int numCards=0;
   
   Hand() {
-		cards = new ArrayList<>();
+		//cards = new ArrayList<>();
 	}
 	
   Hand(File gameFile){
-  
+  	cards=gameFile.split(" ");
+	  numCards=caeds.size();
   }
 	
 	/* Getter Methods */
