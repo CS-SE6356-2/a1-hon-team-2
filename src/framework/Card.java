@@ -12,6 +12,16 @@ public class Card {
 		symbol = "";
 	}
 	
+	@Override
+	public boolean equals(Object o) {
+		
+		if(o == this) return true;
+		
+		if(!(o instanceof Card)) return false;
+		
+		return ((Card) o).getNumber() == number && ((Card) o).getSymbol().equals(symbol);
+	}
+	
 	public int getNumber() { return number; }
 	public String getSymbol() { return symbol; }
 	
