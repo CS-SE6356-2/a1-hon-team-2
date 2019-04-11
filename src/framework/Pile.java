@@ -21,6 +21,22 @@ public class Pile {
 		return ret;		// return that card in array
 	}
 	
+	void shuffle() {
+		ArrayList<Card> newCards = new ArrayList<>();
+		
+		Random randomNum = new Random();		// random number generator
+		
+		for(int i = 0; i < cards.size(); i++) {
+			int randomPos = randomNum.nextInt(cards.size());
+			Card c = cards.get(randomPos);
+			cards.remove(randomPos);
+			
+			newCards.add(c);
+		}
+		
+		cards = newCards;
+	}
 	
-	
+	ArrayList<Card> getCards() { return cards; }
+
 }

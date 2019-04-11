@@ -34,5 +34,14 @@ public class TestRunner {
 		
 		System.out.println("Successful Test for class <Deck>: " + resultHand.wasSuccessful());
 
+		// Test for Pile class
+		Result resultPile = JUnitCore.runClasses(TestPile.class);
+		
+		for(Failure failure : resultPile.getFailures()) {
+			System.out.println(failure.toString());
+		}
+		
+		System.out.println("Successful Test for class <Pile>: " + resultPile.wasSuccessful());
+		
 	}
 }
