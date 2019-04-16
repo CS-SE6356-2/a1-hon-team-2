@@ -3,9 +3,13 @@ import java.util.Random;
 
 public class Pile {
 	private ArrayList<Card> cards;
+	private int numCards;
 	
-	void addCard(Card c) {
+	boolean addCard(Card c) {
+		if(c == null) return false;
 		cards.add(c);
+		numCards++;
+		return true;
 	}
 	
 	Card drawCard() {
@@ -16,6 +20,7 @@ public class Pile {
 		
 		Card ret = cards.get(randCardPos);	// get card from array
 		cards.remove(randCardPos);			// remove card from array
+		numCards--;
 		
 		
 		return ret;		// return that card in array
@@ -38,5 +43,6 @@ public class Pile {
 	}
 	
 	ArrayList<Card> getCards() { return cards; }
+	int getNumCards() { return numCards; }
 
 }
